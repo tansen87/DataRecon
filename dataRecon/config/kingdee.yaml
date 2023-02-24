@@ -1,0 +1,40 @@
+# 序时账的路径
+path_gl: C:\Users\Desktop\0214_n\gl.xlsx
+# 余额表的路径
+path_tb: C:\Users\Desktop\0214_n\tb.xlsx
+# 保存的文件名(不用写后缀名)
+save_name: recon1
+# 保存文件的路径
+save_path: C:\Users\Desktop\0214_n 
+# 期初余额 column name 
+opening: 期初余额借方  
+# 期末余额 colunm name
+closing: 期末余额借方  
+# 借方发生额 column name
+debit: 借方  
+# 贷方发生额 column name
+credit: 贷方  
+# gl公司 column name
+company_gl: 公司  
+# tb公司 column name
+company_tb: company  
+# gl科目代码 column name
+account_gl: 科目编码  
+# tb科目代码 column name
+account_tb: 科目代码  
+# tb科目代码所在第n列
+position: 2  
+# 是否是否有借贷方向有则True无则False
+is_direction: False  
+# 是否取末级科目是则True否则False
+is_lastAccount: True 
+# 是否有期初借贷
+is_openDebit: True  
+# opening credit
+open_oth: 期初余额贷方  
+# closing credit
+close_oth: 期末余额贷方  
+# 借方发生额符号
+symbol:   
+# 借贷方向 column name
+direction:   
