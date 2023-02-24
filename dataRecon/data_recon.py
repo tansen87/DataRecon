@@ -66,7 +66,7 @@ class DataRecon:
             data = pd.read_csv(file_path)
         return data
 
-    def handle_gl(self):
+    def handle_gl(self) -> DataFrame:
         """ handle GL """
         try:
             # read GL
